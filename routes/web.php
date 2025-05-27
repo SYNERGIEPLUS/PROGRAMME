@@ -19,4 +19,8 @@ Route::view('users', 'users')
     ->middleware(['auth', 'verified'])
     ->name('users');
 
+Route::view('workstation', 'workstation')
+    ->middleware(['auth', 'verified'])
+    ->name('workstation');
+
 require __DIR__.'/auth.php';

@@ -60,6 +60,11 @@ new class extends Component
                     class="flex items-center px-3 py-2 rounded {{ $current == 'users' ? 'bg-gray-200 text-indigo-700 font-semibold' : 'hover:bg-gray-100' }}">
                         <i class="fas fa-users text-xl w-6 mr-3"></i> Utilisateurs
                     </a>
+
+                    <a href="{{ route('workstation') }}" 
+                    class="flex items-center px-3 py-2 rounded {{ $current == 'workstation' ? 'bg-gray-200 text-indigo-700 font-semibold' : 'hover:bg-gray-100' }}">
+                        <i class="fas fa-users text-xl w-6 mr-3"></i> Programmations
+                    </a>
                 </nav>
 
             </aside>
