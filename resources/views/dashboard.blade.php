@@ -23,11 +23,7 @@
 </div>
 
     <div class="relative w-full ">
-        <img src="{{ asset('favicon/photo.jpg') }}" alt="Illustration de maison" class="w-full h-96 object-cover rounded-lg shadow-md">
-        <h2 class="absolute top-1/2 left-4 transform -translate-y-1/2 font-bold text-9xl text-blue drop-shadow-md bg-white rounded px-2">
-            {{-- {{ __('ETAT DES PAIEMENTS') }} --}}
-            {{ __('PROGRAMME') }}
-        </h2>
+        
     </div>
 
 @endsection

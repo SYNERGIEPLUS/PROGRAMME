@@ -4,6 +4,6 @@
 
 @section('content')
     <div class="mt-6">
-        @livewire('programe-travail') {{-- Exemple de composant Livewire --}}
+        @livewire('personne-manager') {{-- Exemple de composant Livewire --}}
     </div>
 @endsection
